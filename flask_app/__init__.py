@@ -1,6 +1,4 @@
-from flask import Flask, render_template, request, redirect, session
-
-from flask_app.models.user import User
+from flask import Flask
 
 app=Flask(__name__)
- app.secret_key="im a secret"
+app.secret_key="im a secret"
